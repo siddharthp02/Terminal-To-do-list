@@ -1,5 +1,5 @@
 def get_notes():
-	my_file = open('/home/siddharthp/Desktop/notes/to_do_list.txt','a+')
+	my_file = open('{insert location here}/to_do_list.txt','a+')
 	my_file.seek(0)
 	list1 = my_file.readlines()
 	my_file.close()
@@ -24,7 +24,7 @@ def del_note():
 
 def update_notes():
 	
-	my_file = open('/home/siddharthp/Desktop/notes/to_do_list.txt','w+')
+	my_file = open('{insert location here}/to_do_list.txt','w+')
 	for line in notes:
 		my_file.write(line)
 	my_file.close()
