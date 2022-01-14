@@ -1,4 +1,4 @@
-# Terminal-To-do-list-
+# Terminal-To-do-list
 To-do list on terminal
 
 ## SETUP
